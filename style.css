@@ -1,0 +1,90 @@
+/* ================================
+   NUTRILEARN APP GLOBAL STYLES
+   Color theme: Green / Health
+================================ */
+
+:root {
+  --green-dark: #064e3b;
+  --green: #10b981;
+  --green-light: #86efac;
+  --bg: #f6fef9;
+  --text-dark: #1b1b1b;
+  --text-light: #4b4b4b;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text-dark);
+  padding: 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: var(--green-dark);
+}
+
+header p {
+  font-size: 1.1rem;
+  color: var(--text-light);
+}
+
+/* Main Content */
+main {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 20px;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.05);
+}
+
+/* Generate Button */
+.generate-btn {
+  display: inline-block;
+  margin-top: 20px;
+  background: var(--green);
+  color: white;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.generate-btn:hover {
+  background: var(--green-dark);
+}
+
+/* Output Section */
+#output {
+  margin-top: 25px;
+  padding: 15px;
+  background: var(--green-light);
+  border-radius: 10px;
+  white-space: pre-wrap;
+  font-size: 1rem;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  text-align: center;
+  color: var(--text-light);
+  font-size: 0.9rem;
+}
