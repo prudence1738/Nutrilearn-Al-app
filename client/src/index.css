@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --green-900: #064e3b;
+  --green-700: #047857;
+  --green-500: #10b981;
+  --green-300: #86efac;
+}
+
+body { background: white; }
